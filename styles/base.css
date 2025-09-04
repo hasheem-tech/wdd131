@@ -16,6 +16,8 @@ h1, h2{
 }
 #course-title{
     color: black;
+    display: inline-block;
+    font-size: x-large;
 }
 header{
     background-color: rgb(125, 170, 166);  
@@ -24,6 +26,11 @@ header{
     flex-direction: column;
     justify-content: space-between;
 
+}
+header div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 nav{
     background-color: black;
