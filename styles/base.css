@@ -81,6 +81,8 @@ section{
 }
 .intro img{
     border-radius: 20px;
+    width:110px;
+    height:150px;
 }
 .country{
     display: flex;
@@ -90,6 +92,8 @@ section{
 }
 .country img{
     border: 1px black solid;
+    height:100px;
+     width:170px;
 } 
 .country p{
     width: 450px;
