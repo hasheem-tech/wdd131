@@ -87,7 +87,6 @@ section{
 }
 .intro img{
     border-radius: 20px;
-    width:110px;
     height:150px;
 }
 .country{
@@ -98,8 +97,7 @@ section{
 }
 .country img{
     border: 1px black solid;
-    height:100px;
-     width:170px;
+    height:120px;
 } 
 .country p{
     width: 450px;
@@ -112,6 +110,10 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.aside-content li{
+    margin: 10px;
+    font-size: 17px;
 }
 .aside-content a:hover{
     color: black;
