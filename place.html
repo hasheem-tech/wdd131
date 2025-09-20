@@ -20,7 +20,11 @@
     </header>
     <main>
         <div class="hero-image">
-            <img src="images/italy-florence.webp" alt="">
+            <picture>
+                <source srcset="images/italy-small.webp" media="(max-width: 1000px)">
+                <source srcset="images/italy-florence.webp" media="(min-width: 1000px)">
+                <img src="images/italy-florence.webp" alt="">
+            </picture>          
         </div>
         <div>
         <section class="data">
@@ -38,6 +42,7 @@
         </section>
         <section class="weather">
             <h2>Weather</h2>
+            <img src="images/weather-icon.svg" alt="">
             <ul>
                 <li><b>Tenperature: </b><span id="temp">32</span>°<span id="temp-unit">C</span></li>
                 <li><b>Conditions: </b>Partly Cloudy</li>
