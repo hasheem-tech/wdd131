@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Hasheem Naveed">
+    <meta name="description" content="Information on Italy --- a country that I want to visit.">
+    <title>WDD 131 - Italy</title>
+    <script src="scripts/place.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Italy</h1>
+    </header>
+    <main>
+        <div class="hero-image">
+            <img src="images/italy-florence.webp" alt="">
+        </div>
+        <hr>
+        <div>
+        <section class="data">
+            <h2>Data</h2>
+            <ul>
+                <li><b>Area: </b>301,340 km²</li>
+                <li><b>Population: </b>59 million</li>
+                <li><b>Capital: </b>Rome</li>
+                <li><b>Languages: </b>Italian</li>
+                <li><b>Currency: </b>Euro (EUR)</li>
+                <li><b>Time Zone: </b>CET (Central European Time, UTC+1)</li>
+                <li><b>Calling Code: </b>+39</li>
+                <li><b>Internet TLD: </b>.it</li>
+            </ul>
+        </section>
+        <section class="weather">
+            <h2>Weather</h2>
+            <ul>
+                <li><b>Tenperature: </b><span id="temp">32</span>°<span id="temp-unit">C</span></li>
+                <li><b>Conditions: </b>Partly Cloudy</li>
+                <li><b>Wind: </b><span id="wind-speed">10</span> <span id="speed-unit">km/h</span></li>
+                <li id="wind-chill"><b>Wind Chill: </b></li>
+            </ul>
+        </section>
+        </div>
+    </main>
+        <footer>
+        <p>©️ <span id="current-year"></span> ✒️ Hasheem Naveed ✒️ Pakistan</p>
+        <p id="last-modif"></p>
+    </footer>
+</body>
+</html>
