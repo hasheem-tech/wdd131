@@ -153,7 +153,7 @@ function createTempleCard(temples) {
         image.classList.add('image');
         image.src = temple.imageUrl;
         image.alt = `Image of ${temple.templeName}`;
-        image.loading = "lazy"
+        image.loading = "lazy";
 
         card.appendChild(name);
         card.appendChild(list);
