@@ -96,7 +96,7 @@ const temples = [
 createTempleCard(temples)
 
 
-const page = document.getElementById('page');
+const title = document.getElementById('title');
 const home = document.getElementById('home');
 const old = document.getElementById('old');
 const latest = document.getElementById('new');
@@ -106,27 +106,27 @@ const small = document.getElementById('small');
 
 home.addEventListener('click', () => {
     createTempleCard(temples);
-    page.innerHTML = "Home";
+    title.innerHTML = "Home";
 });
 
 old.addEventListener('click', () => {
     createTempleCard(temples.filter(temple => temple.dedicated.startsWith('18')));
-    page.innerHTML = "Old";
+    title.innerHTML = "Old";
 });
 
 latest.addEventListener('click', () => {
     createTempleCard(temples.filter(temple => temple.dedicated.startsWith('20')));
-    page.innerHTML = "New";
+    title.innerHTML = "New";
 });
 
 large.addEventListener('click', () => {
     createTempleCard(temples.filter(temple => temple.area > 90000));
-    page.innerHTML = "Large";
+    title.innerHTML = "Large";
 });
 
 small.addEventListener('click', () => {
     createTempleCard(temples.filter(temple => temple.area < 10000));
-    page.innerHTML = "Small";
+    title.innerHTML = "Small";
 });
 
 

@@ -4,14 +4,17 @@
     padding: 0;
     font-family: "Roboto";
 }
+:root{
+    --primary-color: rgb(28, 126, 207);
+}
 footer{
     padding: 20px;
-    background-color: rgb(28, 126, 207);
+    background-color: var(--primary-color);
     height: 15vh;
     text-align: center;
 }
 header{
-    background-color:rgb(28, 126, 207);
+    background-color:var(--primary-color);
     padding: 2rem;
 }
 #menu{
