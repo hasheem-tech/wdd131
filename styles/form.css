@@ -38,9 +38,9 @@ form label {
   display: block;
   margin-top: 15px;
   font-weight: bold;
-  color: #333;
+  color: black;
 }
-#checkbox-labels{
+.checkbox-labels{
   display: block;
 }
 form input[type="text"],
